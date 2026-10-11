@@ -1,17 +1,17 @@
-# Digital Companion Homebrew tap
+# Binary Companion Homebrew tap
 
-Homebrew casks for apps from Digital Companion LLC.
+Homebrew casks for apps from Binary Companion.
 
 ```bash
-brew tap digital-companion-llc/tap
+brew tap binary-companion/tap
 brew install --cask timetug
 ```
 
-Or in one step: `brew install --cask digital-companion-llc/tap/timetug`.
+Or in one step: `brew install --cask binary-companion/tap/timetug`.
 
 | Cask | App |
 | --- | --- |
-| `timetug` | [TimeTug](https://github.com/darkarena1/timetug), a menu bar timer that tracks time against your calendar |
+| `timetug` | [TimeTug](https://github.com/binary-companion/timetug), a menu bar app that takes over the screen shortly before meetings |
 
 Casks follow stable releases only. Beta builds are never published here; TimeTug
 updates itself with Sparkle after install (`auto_updates true`).

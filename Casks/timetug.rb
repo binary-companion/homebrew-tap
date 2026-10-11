@@ -2,10 +2,10 @@ cask "timetug" do
   version "2.0.0"
   sha256 "3b9da381ee2f9ff9684b84086cd5409376a6d6b08eccc65624beedeb898300f8"
 
-  url "https://github.com/darkarena1/timetug/releases/download/v#{version}/TimeTug-#{version}.dmg"
+  url "https://github.com/binary-companion/timetug/releases/download/v#{version}/TimeTug-#{version}.dmg"
   name "TimeTug"
-  desc "Menu bar timer that tracks time against your calendar"
-  homepage "https://github.com/darkarena1/timetug"
+  desc "Menu bar app that takes over the screen shortly before meetings"
+  homepage "https://timetug.binarycompanion.com/"
 
   # Stable releases only: `latest` on GitHub never points at a pre-release.
   livecheck do

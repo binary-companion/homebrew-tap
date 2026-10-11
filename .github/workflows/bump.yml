@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Bump to the latest stable release
         id: bump
-        run: echo "result=$(scripts/bump-cask.sh timetug darkarena1/timetug)" >> "$GITHUB_OUTPUT"
+        run: echo "result=$(scripts/bump-cask.sh timetug binary-companion/timetug)" >> "$GITHUB_OUTPUT"
       - name: Open a PR
         if: startsWith(steps.bump.outputs.result, 'bumped ')
         run: |

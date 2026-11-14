@@ -1,6 +1,6 @@
 cask "timetug" do
-  version "2.0.0"
-  sha256 "3b9da381ee2f9ff9684b84086cd5409376a6d6b08eccc65624beedeb898300f8"
+  version "2.2.1"
+  sha256 "a48ecbbe628eb3bb5fb2cd6323d5800672d4c20a9e53293e4ab986abc595becf"
 
   url "https://github.com/binary-companion/timetug/releases/download/v#{version}/TimeTug-#{version}.dmg"
   name "TimeTug"

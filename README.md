@@ -4,10 +4,11 @@ Homebrew casks for apps from Binary Companion.
 
 ```bash
 brew tap binary-companion/tap
+brew trust binary-companion/tap
 brew install --cask timetug
 ```
 
-Or in one step: `brew install --cask binary-companion/tap/timetug`.
+Current Homebrew refuses to load casks from a tap you have not told it to trust ("Refusing to load cask ... from untrusted tap"), so run `brew trust binary-companion/tap` once after tapping. In one step the first time: `brew tap binary-companion/tap && brew trust binary-companion/tap && brew install --cask timetug`.
 
 | Cask | App |
 | --- | --- |

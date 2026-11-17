@@ -14,6 +14,9 @@ jobs:
         run: |
           mkdir -p "$(brew --repository)/Library/Taps/binary-companion"
           ln -s "$PWD" "$(brew --repository)/Library/Taps/binary-companion/homebrew-tap"
+      - name: Trust this tap
+        # Homebrew refuses to load casks from a tap it has not been told to trust (see the README).
+        run: brew trust binary-companion/tap
       - name: Style
         run: brew style --cask binary-companion/tap
       - name: Audit
